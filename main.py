@@ -5,7 +5,7 @@ import functions
 todos = functions.get_todos()
 
 st.title('My To-Do App')
-st.subheader('This is my tasks')
+st.subheader('These are my tasks')
 
 # Track which todos to remove
 todos_to_remove = []
